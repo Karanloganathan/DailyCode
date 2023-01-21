@@ -7,7 +7,7 @@ public class countthedigits {
                 int count=0,rev,temp=N; //done mistake.   always use the temp variable
                 while(N!=0){
                     rev=N%10;
-                    if(rev!=0 && temp % rev == 0){
+                    if(rev!=0 && temp % rev == 0){   //number contains zero. 
                         count++;
                     }
                     N=N/10;
