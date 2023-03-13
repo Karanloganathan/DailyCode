@@ -20,5 +20,6 @@ public class arrayintro{
          }
 
          System.out.println(Arrays.toString(ar)); //[1, 2, 3]
+        
     }
 }
