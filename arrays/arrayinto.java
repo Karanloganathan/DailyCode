@@ -14,7 +14,7 @@ public class arrayintro{
          for(int i=0;i<ar.length;i++){
             System.out.print(ar[i]+" ");  //1 2 3
          }
-         //using for-each loop
+         
          for(int num:ar){
             System.out.print(num+" ");  //1 2 3
          }
